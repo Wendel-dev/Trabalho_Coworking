@@ -1,0 +1,337 @@
+﻿Faculdade de Tecnologia do Estado de São Paulo Zona Sul - Dom Paulo Evaristo Arns
+1° ADS - Manhã
+
+
+
+
+
+
+
+
+Projeto Coworking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SÃO PAULO – SP 
+2026
+________________
+Enzo Cadorini Ikeuti
+Pedro Paulo Alves de Freitas
+Victor Hugo da Silva
+Wendel Moreira Dias
+
+
+
+
+
+
+Projeto Coworking
+
+
+
+
+Atividade apresentada para a
+disciplina de Engenharia de Software I 
+no curso do 1°ADS - Manhã da FATEC Zona Sul.
+Professor (a): Josenyr Santos Rosa
+
+
+
+
+
+
+
+
+
+
+
+
+SÃO PAULO - SP 
+2026
+________________
+Sumário
+
+
+
+
+Escopo do projeto        4
+Objetivos do projeto        5
+Objetivos gerais        5
+Objetivos específicos        5
+Segmento social atingido        6
+Objetivos com o local        6
+Persona        6
+Resultados a serem obtidos:        7
+Requisitos funcionais        9
+Requisitos não funcionais        10
+Regras de Negócios        11
+________________
+
+
+Escopo do projeto
+        
+Esse projeto tem como escopo as atividades operacionais de gestão do Cowork e focada na experiência do usuário e automação de processos.
+
+
+Itens inclusos:
+* Gestão de usuários: Cadastro, login, histórico de consumo.
+* Gestão de espaços disponíveis: Cadastro de salas, estações de trabalho e estacionamentos.
+* Reserva de espaços: Agendamento em tempo real de espaços com verificação de disponibilidade.
+* Catálogo de serviços: Apresentação e contratação de serviços disponíveis.
+* Relatório de gestão: Geração de relatórios gerenciais para o usuário e proprietário do sistema.
+
+
+Itens não inclusos:
+* Integração com sistemas de segurança física (Câmeras, sensores de presença).
+* Gestão de estacionamento e controle de acesso biométrico/catracas.
+* Módulos especializados de RH, Contabilidade, Folha de Pagamento ou qualquer outra atividade de gestão interna.
+* Gestão física de estoque (almoxarifado).
+________________
+Objetivos do projeto
+        
+Objetivos gerais
+O projeto tem como objetivo agilizar a operação do cowork com foco em atender mais clientes de forma correta, evitando erros e lentidão humana. Para isso o projeto terá os seguintes objetivos.
+Objetivos específicos
+   * Automatizar o cadastro de cliente: Reduzir o tempo gasto no cadastro de novos clientes através de uma interface de auto-atendimento.
+   * Otimizar o tempo de ocupação: Facilitar o processo de aluguel de espaços pelo sistema, diminuindo a interação humana e o tempo de resposta.
+   * Centralizar a comunicação de serviços: Fornecer uma vitrine digital para produtos e serviços, visando o aumento da receita complementar.
+   * Diminuir custos operacionais: Reduzir 100% o custo com emissão de relatórios para clientes e diminuir em 70% o tempo gasto com atendimento a clientes.
+   * Apoiar a tomada de decisão: Substituir planilhas manuais por relatórios automáticos e precisos sobre a utilização dos espaços e serviços. 
+   * Adoção abrangente: Utilização do sistema por pelo menos 50% dos clientes no período de 3 meses, permitindo atender mais clientes com o mesmo pessoal.
+________________
+Segmento social atingido
+O software descrito neste projeto busca atingir a faixa definida no público alvo do coworking, esse definido abaixo:
+      * Faixa etária - a faixa etária que o software busca atingir são de adultos entre seus 25-35 anos.
+      * Renda mensal - o público principal são empreendedores que ainda faturam menos de R$ 2.000,00.
+      * Localização - o coworking visa atingir principalmente nômades digitais ou empreendedores que queiram que sua atividade esteja sobre a jurisdição fiscal local.
+Objetivos com o local
+Buscaremos atingir públicos profissionais, focando em ambientes para registro de empresa, além disso fornecendo possibilidade para aluguel de espaço privativo de trabalho e reuniões.
+Persona
+Guilherme, 32 anos, está abrindo uma consultoria de software, ele atende os clientes a distância mas quer manter seu endereço privado, algumas vezes ele precisa fazer reuniões com clientes, porém, sem nenhum lugar apropriado ele acaba tendo que fazer a reunião a distância, geralmente ocorrendo algum problema como barulhos ou problemas de conexão.
+________________
+Resultados a serem obtidos:
+        
+
+
+Os resultados que o software busca entregar para o cliente, baseado em funcionalidades e aplicação pelo cliente de técnicas de divulgação e operação do coworking.
+
+
+Diminuição de filas:
+
+
+        Diminuir a quantidade de clientes que ligam ou vão ao balcão de atendimento para solicitar informações e realizar serviços básicos que podem ser realizados de forma autônoma pelo usuário, resultando no aumento da satisfação e diminuindo a necessidade de mais pessoas para atingir um público maior.
+
+
+Automatização de relatórios solicitados por clientes:
+        
+         Facilitar para que clientes possam emitir relatórios relevantes sem a necessidade de interação com atendentes, agilizando o processo e permitindo a emissão de múltiplos relatórios e diminuindo o consumo de papel, tinta e desgaste de impressoras.
+
+
+Diminuição de chamadas por dúvidas de serviços e produtos:
+        
+          Disponibilizar online informações relevantes para o cliente sobre os serviços e produtos oferecidos, facilitando com que clientes entendam e consigam adquirir os serviços de forma autônoma, aumentando a capacidade de venda.
+
+
+Aumentar a base de clientes cadastrados:
+        
+           Conquistar uma ampla base de clientes cadastrados na plataforma, induzindo aos clientes que usem as funcionalidades, garantindo que os benefícios dos outros objetivos sejam maximizados atendendo a maioria dos clientes.
+
+
+Diminuição de tempo ocioso dos espaços:
+        
+           Aumentar o tempo de ocupação dos espaços, permitindo que os clientes vejam os dias e horários livres de forma fácil e acessível, possibilitando que escolham entre todas as possibilidades sem precisar ficar perguntando aos atendentes pelo telefone ou ter que ir pessoalmente.
+Aumento de vendas complementares:
+           
+           Aumentar a venda de serviços e produtos que atualmente são pouco consumidos, via disponibilização de informações sobre os produtos, serviços e pacotes de promoção, aumentando a receita e ticket médio da empresa.
+
+
+Geração de relatórios internos:
+
+
+Aumento da velocidade na geração de relatórios gerenciais internos personalizados e relevantes, possibilitando tomadas de decisões pela administração de forma mais clara e rápida, ajudando com decisões mais assertivas.
+________________
+Requisitos funcionais
+
+
+Código
+	Descrição
+	Observação
+	RF - 01
+	Cadastro De Cliente
+	Deve ser possível fazer o cadastro por email e senha ou redes sociais
+	RF - 02
+	Cadastro De Ambientes
+	Cada ambiente deve ter uma forma de cadastro independente dos outros
+	RF - 03
+	Alteração De Valores
+	Alterações de valores alteram permanentemente o preço
+	RF - 04
+	Criação de descontos
+	O desconto deve ter um tempo fixo
+	RF - 05
+	Criação De Pacotes
+	Os pacotes devem ter preços independentes
+	RF - 06
+	Listagem De Produtos E Serviços
+	os produtos devem aparecer com imagem e descrição
+	RF - 07
+	Informações Sobre A Empresa
+	Histórico, FAQ, etc.
+	RF - 08
+	Gerar Relatórios Para O Usuário
+	deve gerar obrigatoriamente relatório de gastos no ano.
+	RF - 09
+	Gerar Relatórios Administrativos
+	Deve gerar relatórios dos serviços contratados e deve ser fácil de incluir novos relatórios
+	RF - 10
+	Aceitar Pagamentos
+	Deve usar empresa especializada
+	RF - 11
+	Calendário De Disponibilidade
+	O calendário deve atualizar de acordo com a contratação/desistência de espaços 
+	RF - 12
+	Check-in/Check-out Digital
+	possibilitar que o usuário confirme a chegada e saída do local contratado digitalmente
+	RF - 13
+	Reserva De Espaços
+	o horário deve estar disponível
+	RF - 14
+	Envio de mensagem de notificação
+	deve enviar mensagem por email confirmando reserva, cadastro e lembrando da reserva
+	RF - 15
+	Recuperação de Senha
+	Deve ter uma forma de o usuário criar uma nova senha caso esqueça a anterior
+	RF - 16
+	Login/Logout
+	Deve conseguir controlar a autenticação da sessão do usuário
+	________________
+
+
+Requisitos não funcionais 
+
+
+Código
+	Descrição
+	Observação
+	RNF - 01
+	Funcionar Em Múltiplas Plataformas
+	Essencialmente web e mobile
+	RNF - 02
+	Funcionar 24 Horas Por Dia
+	-
+	RNF - 03
+	Responsivo Para Múltiplas Dimensões
+	Deve ter comportamento padronizado em telas de tamanhos diferentes
+	RNF - 04
+	Usar Cores Da Identidade Visual Da Empresa
+	Especificamente: #000, #A38, #44C
+	RNF - 05
+	Api Responder Em Até 0.5s
+	principalmente para funções relacionadas à contratação
+	RNF - 06
+	Não armazenar dados sensíveis de pagamento
+	Manter dados de cartão e relacionados de responsabilidade da empresa especializada
+	RNF - 07
+	Criptografar Senhas
+	não salvar senhas de forma limpa em casos de ataque hacker
+	RNF - 08
+	Perfis De Usuário Com Privilégios Diferentes
+	Deve ter perfis para usuários comum e adm
+	RNF - 09
+	Integridade de Concorrência
+	ao serem solicitadas duas reservas ao mesmo tempo a segunda não deve ser realizada
+	RNF - 10
+	Suportar pelo menos 500 clientes na API 
+	Foco na reserva de espaços
+	RNF - 11
+	Gerar Backup Diário Dos Dados
+	Manter os 5 últimos backups
+	RNF - 12
+	Manter dados por 5 anos dados gerenciais
+	Após 5 anos excluir os dados
+	RFN - 13 
+	Manter os Serviços com ilustrações 
+	Cliente deve fornecer as imagens
+	RFN - 14
+	Trabalhar dados de acordo com a LGPD
+	Manter e utilizar os dados dos usuários exclusivamente de acordo com a LGPD
+	RFN - 15
+	Exclusão de dados pessoais cadastrados
+	Usuário deve solicitar pelo sistema.
+	
+
+________________
+
+
+Regras de Negócios
+
+
+Código
+	Descrição da Regra
+	Requisito Relacionado
+	RN - 01
+	Antecedência de Reserva: Uma reserva de espaço só pode ser confirmada se houver uma antecedência mínima de 30 minutos em relação ao horário de início.
+	RF - 11, RF - 13
+	RN - 02
+	Cancelamento Automático (No-show): O sistema deve cancelar automaticamente a reserva caso o check-in digital não seja realizado em até 15 minutos após o horário inicial.
+	RF - 12
+	RN - 03
+	Prioridade de Pagamento: Em caso de solicitações simultâneas para o mesmo espaço, a reserva é garantida apenas para o primeiro usuário que concluir o pagamento com sucesso.
+	RF - 10, RF - 13, RNF - 09
+	RN - 04
+	Bloqueio de Inadimplentes: Usuários com pendências financeiras no histórico de consumo ficam impedidos de realizar novas reservas até a regularização.
+	RF - 01, RF - 13
+	RN - 05
+	Vigência de Cupons: Descontos com tempo fixo expiram automaticamente às 23:59h da data de término definida, não podendo ser aplicados retroativamente.
+	RF - 04
+	RN - 06
+	Política de Reembolso: O cancelamento de reservas com estorno integral do valor só é permitido se solicitado com pelo menos 2 horas de antecedência.
+	RF - 11, RF - 13
+	RN - 07
+	Independência de Preços: O valor definido para um pacote de serviços é soberano; alterações nos preços individuais dos produtos não alteram o valor de pacotes já criados.
+	RF - 03, RF - 05
+	RN - 08
+	Acesso Administrativo: Apenas perfis do tipo "ADM" possuem permissão para cadastrar ambientes, alterar valores e visualizar relatórios de gestão do proprietário.
+	RF - 02, RF - 09, RNF - 08
+	RN - 09
+	Retenção Fiscal e LGPD: Dados financeiros e gerenciais devem ser mantidos por 5 anos para fins fiscais, mesmo que o usuário solicite a exclusão de seus dados pessoais da plataforma.
+	RNF - 12, RNF - 15
+	RN - 10
+	Disponibilidade de Imagens: O cadastro de qualquer produto ou serviço só é considerado completo e visível para o cliente se houver pelo menos uma imagem anexada.
+	RF - 06, RNF - 13
+	RN - 11
+	Fracionamento de Reserva: As reservas de estações de trabalho ou salas de reunião devem respeitar o intervalo mínimo de 1 hora.
+	RF - 11, RF - 13
+	RN - 12
+	Capacidade Máxima: O sistema não deve permitir reservas que excedam a capacidade máxima de pessoas definida no cadastro do ambiente.
+	RF - 02, RF - 13
+	RN - 13
+	Limitação de Descontos: Não é permitida a aplicação cumulativa de cupons de desconto com pacotes promocionais já existentes.
+	RF - 04, RF - 05
+	RN - 14
+	Confirmação de Cadastro: O acesso às funcionalidades de reserva só será liberado após a validação do e-mail ou integração com rede social.
+	RF - 01, RF - 16
+	RN - 15
+	Manutenção de Ambientes: Ambientes marcados como "Em Manutenção" no cadastro devem ser automaticamente bloqueados no calendário de disponibilidade.
+	RF - 02, RF - 11
