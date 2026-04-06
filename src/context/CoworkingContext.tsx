@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState } from 'react';
+import type { ReactNode } from 'react';
 
 export interface User {
   id: string;
@@ -59,7 +60,7 @@ export const CoworkingProvider: React.FC<{ children: ReactNode }> = ({ children 
     { id: '2', name: 'Guilherme', email: 'guilherme@gmail.com', role: 'USER', pendingPayments: false },
   ]);
 
-  const [environments, setEnvironments] = useState<Environment[]>([
+  const [environments] = useState<Environment[]>([
     { id: 'env1', name: 'Sala Alpha (Reunião)', type: 'MEETING_ROOM', capacity: 8, pricePerHour: 50, image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800', status: 'AVAILABLE', description: 'Sala equipada para videoconferências e apresentações.' },
     { id: 'env2', name: 'Sala Beta (Privativa)', type: 'MEETING_ROOM', capacity: 4, pricePerHour: 35, image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=800', status: 'AVAILABLE', description: 'Ideal para reuniões rápidas e privadas.' },
     { id: 'env3', name: 'Estação Flex 01', type: 'WORKSTATION', capacity: 1, pricePerHour: 15, image: 'https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&q=80&w=800', status: 'AVAILABLE', description: 'Cadeira ergonômica e conexão ultra rápida.' },

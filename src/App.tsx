@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useParams, useNavigate } from 'react-router-dom';
 import { CoworkingProvider, useCoworking } from './context/CoworkingContext';
-import type { Reservation } from './context/CoworkingContext';
-import { Layout, LogIn, Calendar, Coffee, User, Settings, LogOut, BarChart, CheckCircle, Clock, AlertCircle } from 'lucide-react';
+import { Layout, Calendar, User, LogOut, BarChart, CheckCircle, Clock } from 'lucide-react';
 
 // --- Navbar ---
 const Navbar = () => {
@@ -346,7 +345,7 @@ const AdminPanel = () => {
 
 // --- Styles ---
 const linkStyle = { color: '#fff', textDecoration: 'none', fontSize: '0.9rem' };
-const labelStyle = { display: 'block', marginBottom: '0.5rem', fontSize: '0.85rem', fontWeight: 'bold' as const, color: '#444' };
+//const labelStyle = { display: 'block', marginBottom: '0.5rem', fontSize: '0.85rem', fontWeight: 'bold' as const, color: '#444' };
 const logoutBtnStyle = { background: 'none', border: 'none', color: '#A38', cursor: 'pointer' };
 const loginBtnStyle = { backgroundColor: '#44C', color: '#fff', padding: '6px 12px', borderRadius: '4px', textDecoration: 'none' };
 const pageCenterStyle: React.CSSProperties = { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' };
